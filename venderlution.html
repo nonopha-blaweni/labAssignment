@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Team Project - Vendorlution</title>
+  <style>
+    /* Global Styles */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Playfair+Display&display=swap');
+
+    body {
+      background: linear-gradient(135deg, #ffe4f0, #ffd1dc);
+      font-family: 'Montserrat', sans-serif;
+      color: #5a2a4c;
+      margin: 0;
+      padding: 0 20px 40px;
+      line-height: 1.7;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      color: #8e3b72;
+      margin-bottom: 15px;
+      font-weight: 700;
+      text-shadow: 1px 1px 3px #f2c1d1;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2rem;
+      border-bottom: 4px solid #f29fc9;
+      padding-bottom: 8px;
+      margin-top: 50px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-top: 40px;
+    }
+
+    /* Horizontal line styling */
+    hr {
+      border: none;
+      height: 5px;
+      background: #f29fc9;
+      box-shadow: 0 0 10px #f8a9c7;
+      width: 80%;
+      margin: 25px auto 40px;
+      border-radius: 5px;
+    }
+
+    /* Paragraph styling */
+    p {
+      max-width: 900px;
+      margin: 0 auto 25px;
+      font-size: 1.15rem;
+      background: #fff0f7;
+      padding: 20px 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(242, 159, 201, 0.5);
+    }
+
+    /* Unordered list styling */
+    ul {
+      max-width: 850px;
+      margin: 0 auto 40px;
+      padding-left: 25px;
+      background: #ffe4f0;
+      border-radius: 15px;
+      box-shadow: 0 3px 12px rgba(242, 159, 201, 0.35);
+      color: #692d53;
+      font-weight: 600;
+      font-size: 1.15rem;
+      list-style-type: circle;
+    }
+
+    ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #fbd5df;
+    }
+
+    ul li:last-child {
+      border-bottom: none;
+    }
+
+    /* Table styling */
+    table {
+      width: 850px;
+      margin: 0 auto 60px;
+      border-collapse: separate;
+      border-spacing: 0;
+      box-shadow: 0 6px 18px rgba(242, 159, 201, 0.3);
+      border-radius: 15px;
+      overflow: hidden;
+      background: #fff0f7;
+      font-size: 1.05rem;
+      color: #6a3d5a;
+      font-weight: 600;
+    }
+
+    th, td {
+      padding: 15px 25px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f29fc9;
+      color: white;
+      font-weight: 700;
+      border-bottom: 4px solid #a54d6d;
+    }
+
+    td {
+      border-bottom: 1px solid #fbd5df;
+    }
+
+    tr:hover td {
+      background-color: #f8c9d9;
+      transition: background-color 0.3s ease;
+      color: #4b1f39;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 1000px) {
+      body {
+        padding: 20px 15px 30px;
+      }
+      p, ul, table {
+        width: 95%;
+      }
+      h1, h2, h3 {
+        font-size: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Proposed Team Project: Vendorlution</h1>
+  <hr />
+  <h2>Project Overview</h2>
+  <p>
+    Vendorlution is a secure, student-centric online marketplace web application developed to streamline local buying and selling. Inspired by platforms like Facebook Marketplace and WhatsApp commerce—but built to address their limitations.
+  </p>
+  <p>
+    This application is not a delivery network but allows buyers and sellers to coordinate delivery or meetups themselves, promoting flexibility and user control. It encourages local economic participation and social accountability in digital commerce spaces.
+  </p>
+
+  <h3>Target Audience</h3>
+  <ul>
+    <li><strong>Buyers:</strong> Students and individuals looking to purchase items from verified sellers securely.</li>
+    <li><strong>Sellers:</strong> Small businesses, artisans, and local vendors wanting to showcase and sell their products to a trusted university-based community.</li>
+  </ul>
+
+  <h3>Key Features</h3>
+  <ul>
+    <li>User Registration & Authentication – Different pathways for buyers and sellers.</li>
+    <li>Profile Management – Buyers and sellers manage personal info and business details.</li>
+    <li>Product Listing & Management – Sellers can upload, edit, and track items.</li>
+    <li>Smart Search & Filtering – Users can explore listings by category, price, and location.</li>
+    <li>Chat Integration – Enables buyer-seller communication within the platform.</li>
+    <li>Secure Payment System – Funds held until buyer confirms receipt of goods.</li>
+    <li>Seller Dashboard – Shows sales metrics, product performance, and order history.</li>
+  </ul>
+
+  <h3>Technical Requirements</h3>
+  <ul>
+    <li>Front-end development (HTML, CSS, JavaScript)</li>
+    <li>Backend development (Django)</li>
+    <li>Database design (PostgreSQL)</li>
+    <li>Implementation of security</li>
+  </ul>
+
+  <h3>Team Members</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Role</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nonopha Blaweni</td>
+        <td>Project Manager / Tester</td>
+      </tr>
+      <tr>
+        <td>Jabu Sithole</td>
+        <td>Research and Design</td>
+      </tr>
+      <tr>
+        <td>Sduduzo Buthelezi</td>
+        <td>Backend Developer</td>
+      </tr>
+      <tr>
+        <td>Risana Kelly Siweya</td>
+        <td>Lead Developer</td>
+      </tr>
+      <tr>
+        <td>Thabiso Mkhonto</td>
+        <td>Frontend Developer</td>
+      </tr>
+      <tr>
+        <td>Aphiwe Sibusiso Mntambo</td>
+        <td>Backend Developer</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
